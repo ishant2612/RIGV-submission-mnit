@@ -87,7 +87,7 @@ function Lpage() {
               </span>
             </h1>
             <p id="head-text" style={{ color: highContrast ? "#fff" : "#000" }}>
-               we're 'Opening Online Doors, Bridging Abilities' to 'Redefine Web Access.' Our mission is to 'Unlock the Web's Potential' for 'One Web, One World'—a place of diversity, inclusion, and equitable online experiences
+               We're 'Opening Online Doors, Bridging Abilities' to 'Redefine Web Access.' Our mission is to 'Unlock the Web's Potential' for 'One Web, One World'—a place of diversity, inclusion, and equitable online experiences
             </p>
             <Link to="/fpage">
               <div
