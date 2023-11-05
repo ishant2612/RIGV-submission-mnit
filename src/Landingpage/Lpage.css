@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+html,
+body {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+#main {
+  height: 100hv;
+  width: 100vw;
+  overflow-x: hidden;
+  background-color: #eddcc8;
+  /* cursor: none; */
+}
+
+#logo {
+  height: 12vh;
+  width: 50%;
+  background-color: red;
+  margin-bottom: 2vh;
+}
+#nav {
+  width: 100vw;
+  height: 13vh;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10;
+  padding: 2vh 10vh;
+  /* background-color: aqua; */
+}
+#nav > button {
+  width: 7vw;
+  height: 5vh;
+  font-size: 1.4vh;
+  background-color: #1565c0;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+}
+#page1 {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+}
+#logo > img {
+  height: 10vh;
+  margin-top: 2vh;
+  margin-left: 4.5vw;
+}
+#cursor {
+  background-color: #000;
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+}
+#hero {
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  top: 20vh;
+  height: 85vh;
+  width: 90%;
+  position: relative; /* background-color: red; */
+}
+
+#hero-text {
+  /* background-color: red; */
+  height: 100%;
+  width: 45%;
+  padding: 35vh 4vw;
+  text-align: start;
+}
+#heading {
+  position: absolute;
+  top: 18vh;
+  font-size: 3.5vw;
+  letter-spacing: 0.4vw;
+}
+#head-hand {
+  color: #687dac;
+}
+
+#head-text {
+  width: 80%;
+  font-size: 2.6vh;
+}
+
+#hero-img {
+  /* background-color: red; */
+  height: 80%;
+  width: 50%;
+}
+
+#hero-img > img {
+  margin: auto;
+  height: 80%;
+  width: 80%;
+}
+
+#page2 {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background-color: #eddcc8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#page2 h1 {
+  font-size: 3vw;
+  position: absolute;
+  top: 10vh;
+}
+
+#form_content {
+  /* background-color: red; */
+  height: 60%;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#page2 > Button {
+  width: 50%;
+  position: absolute;
+  bottom: -20vh;
+}
