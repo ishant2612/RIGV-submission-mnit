@@ -1,70 +1,86 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# HelpingHand 
 
-## Available Scripts
+## Introduction
 
-In the project directory, you can run:
+HelpingHand is a project that aims at improving web accessibility for individuals with different sort of disabilities. In an era where the digital world dominates our lives, we recognize the critical need for inclusive web services. This project endeavors to bridge the accessibility gap and make online content available to everyone, regardless of their abilities.
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Text-to-Speech with Summarization**: Our web app seamlessly converts the whole text content on the webpage into a brief summary in realtime and with the help of Text-to-Speech we can help the blind people know about the content on the webpage
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Color Contrast Customization**: Users with color blindness can adjust contrast settings to ensure content is easily distinguishable.
 
-### `npm test`
+- **Live Captioning**: Real-time captioning of audio and video content for users with hearing impairments.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Text To Speech and Speech To Text**: A groundbreaking feature that enables users with mobility challenges to navigate the web using facial gestures.
 
-### `npm run build`
+## Getting Started
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Prerequisites
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Before using HelpingHand, ensure you have the following prerequisites:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- A modern web browser (e.g., Chrome, Firefox, Safari)
+- An internet connection
 
-### `npm run eject`
+### Installations Required 
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Clone the repository:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   
+2. type these commands in terminal:-
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+`npm install @mui/material @emotion/react @emotion/styled`
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+`npm install framer-motion`
 
-## Learn More
+to run this :-
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+`npm start`
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Usage
 
-### Code Splitting
+Currently our webpage is in its first stage of development. In the webpage we have made the user interaction will happen as given in this flow chart.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+![flowchart](https://drive.google.com/file/d/1Nj3RTugjbGuysRBWTSb0g4M7Hlyddgii/view?usp=sharing)
 
-### Analyzing the Bundle Size
+As given in the flowchart when the user will first land on our website he will see a very elegant and a very calm front-end.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+![ss_1](https://drive.google.com/file/d/17stY5aHI5VaIqg9gPfLHyrzywi9Mj_8P/view?usp=sharing)
 
-### Making a Progressive Web App
+then the user will have to select options we currently have for some of the most common disabilities 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+![ss2](https://drive.google.com/file/d/17stY5aHI5VaIqg9gPfLHyrzywi9Mj_8P/view?usp=sharing)
 
-### Advanced Configuration
+by selecting the option the user can now without any issue access the services provided on the web.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+## Adaptive Features
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### Text-to-Speech with Summarization;
+Our Text-to-Speech with Summarization will serve a big role on letting the people with disablities to access all the services provided by the web without any hassle.Some might this integration very helpful as we did find that just for an example if someone is browsing over Amazon or Flipkart they will not read every content written on the webpage but only the stuff they actually care about like the price, reviews, comparisons etc.
+so keeping that in mind for people who are blind if they go over any platform which has major part content as text this tool will tell them about the crisp version of content on webpage.
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### Color Contrast Customization
+
+Users with have an option of switching to a higher contrast webpage. In just one click the user can have the page with high contrast in his hands. This tool will help the users with color blindness.
+
+### Live Captioning
+
+Real-time captioning of audio and video content for users with hearing impairments is automatically activated. No additional steps are required.
+
+
+## Developers
+This project was developed by
+
+* [Ishant Verma (Team Leader) ](https://github.com/ishant2612)
+
+* [Varun Gupta](https://github.com/CreepySpider-bot)
+
+* [Ronit Ranjan Tripathy](https://github.com/RONITrrt)
+
+* [Gagan Sharma](https://github.com/PARZIWALL)
+
